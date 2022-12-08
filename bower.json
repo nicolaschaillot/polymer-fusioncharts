@@ -1,0 +1,22 @@
+{
+  "name": "polymer-fusioncharts",
+  "authors": [
+    "Nicolas Chaillot <nicolas.chaillot@keendoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://keendoo.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.0.0",
+    "fusioncharts": "^3.15.1",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}

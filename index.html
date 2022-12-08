@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Polymer Starter Kit">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>My App</title>
+    <meta name="description" content="My App description">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="import" href="bower_components/polymer/polymer.html"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <!-- Include fusioncharts core library -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    <!-- Include fusion theme -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+    <link rel="import" href="element/polymer-fusioncharts-ok.html">
+    <link rel="import" href="element/polymer-fusioncharts-ko.html">
+
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #eeeeee;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h3 align="center">Component OK</h3>
+    <div id="okchart"></div>
+    <polymer-fusioncharts-ok></polymer-fusioncharts-ok>
+    
+    <h3 align="center">Component KO</h3>
+    <polymer-fusioncharts-ko></polymer-fusioncharts-ko>
+  </body>
+</html>
